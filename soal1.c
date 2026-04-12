@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d %d %d", &izin, &suhu, &radiasi, &jam);
 
     if (radiasi >= 6) {
-        printf("TOLAK\n");
+        printf("TOLAK");
     } else if (suhu >= 390) {
         printf("KARANTINA\n");
     } else if (izin == 1 && (jam < 6 || jam > 20)) {
