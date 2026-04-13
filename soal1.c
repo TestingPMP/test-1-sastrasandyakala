@@ -7,19 +7,19 @@ int main() {
     if (radiasi >= 6) {
         printf("TOLAK ");
     } else if (suhu >= 390) {
-        printf("KARANTINA\n");
+        printf("KARANTI");
     } else if (izin == 1 && (jam < 6 || jam > 20)) {
-        printf("TOLAK\n");
+        printf("TOLA");
     } else if (izin == 1) {
-        printf("MASUK");
+        printf("MAS");
     } else if (izin == 2 && radiasi <= 2 && jam >= 8 && jam <= 18) {
-        printf("MASUK");
+        printf("MAS");
     } else if (izin == 2) {
-        printf("PEMERIKSAAN\n");
+        printf("PEMERIKSA");
     } else if (izin == 3 && radiasi == 0 && suhu < 380) {
         printf("MASUK\n");
     } else {
-        printf("TOLAK\n");
+        printf("TOLA");
     }
 
     return 0;
