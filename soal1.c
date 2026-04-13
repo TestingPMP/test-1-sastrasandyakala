@@ -13,13 +13,13 @@ int main() {
     } else if (izin == 1) {
         printf("MASUK\n");
     } else if (izin == 2 && radiasi <= 2 && jam >= 8 && jam <= 18) {
-        printf("MASUK\n");
+        printf("MASUK");
     } else if (izin == 2) {
-        printf("PEMERIKSAAN\n");
+        printf("PEMERIKSAAN");
     } else if (izin == 3 && radiasi == 0 && suhu < 380) {
-        printf("MASUK\n");
+        printf("MASUK");
     } else {
-        printf("TOLAK\n");
+        printf("TOLAK");
     }
 
     return 0;
